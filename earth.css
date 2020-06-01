@@ -1,0 +1,22 @@
+.earth{
+	position: relative:
+	top: 200px;
+	left: 450px;
+	bottom: 0px;
+	right: 30px;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	background-image: url(https://lh5.googleusercontent.com/-kkxEx-SkRaY/VBLF4BV2lZI/AAAAAAAAKao/FnKsv7402_c/s500/earthmap.jpg);
+	border-radius: 50%;
+	background-size: cover;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.9), 0 5px 15px rgba(0,0,0,0.34);
+	animation: spin 120s infinite alternate linear;
+	animation-fill-mode: both;
+}
+
+
+@keyframes spin{
+	0%{background-position: 50%;}
+	100%{background-position: 100%;}
+} 
